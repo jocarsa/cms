@@ -1,0 +1,65 @@
+/* ESTILOS GENERALES */
+	body,html{background:rgb(220,220,220);font-family:sans-serif;padding:0px;margin:0px;height:100%;overflow:hidden;}
+/* ESTILOS DEL FORMULARIO DE LOGIN */
+	#formulariologin{width:200px;height:200px;background:white;padding:30px;margin:auto;border-radius:20px;text-align:center}
+	#formulariologin input{width:100%;padding-top:10px;padding-bottom:10px;border:0px;margin-top:10px;outline:none;background:rgb(240,240,240);border-radius:5px;}
+	#formulariologin input[type="text"],#formulariologin input[type="password"]{box-shadow:0px 4px 8px rgba(0,0,0,0.3) inset;}
+	#formulariologin input[type="submit"]{box-shadow:0px 4px 8px rgba(0,0,0,0.3);}
+	.notice{position:absolute;top:0px;width:400px;background:red;color:white;height:20px;left:50%;margin-left:-200px;padding:10px;text-align:center;}
+/* ESTILOS DEL PANEL DE CONTROL */
+	aside{width:20%;float:left;height:100%;box-shadow:-20px 0px 20px rgba(0,0,0,0.3) inset;}
+	section{width:80%;float:right;height:100%;}
+	#contienemenu{padding:10px;}
+	#contienemenu ul{list-style-type:none;padding:0px;margin:0px;}
+	#contienemenu ul li{padding:10px;margin:0px;border-bottom:1px solid grey;}
+	#contienemenu ul li a{color:inherit;text-decoration:none;}
+	#contienecontenido{padding:10px;background:white;height:100%;overflow-y:scroll;}
+	#contienecontenido table{width:100%;text-align:left;}
+	#contienecontenido table a{padding:5px;color:inherit;text-decoration:none;}
+	#contienecontenido table a i{font-size:20px;}
+	#create{color:inherit;text-decoration:none;font-size:80px;position:absolute;bottom:10px;right:10px;}
+/* ESTILOS DEL FORMULARIO */
+	#formulario{width:50%;background:white;margin:auto;padding:20px;border-radius:10px;text-align:center;}
+	#formulario h1{color:rgb(100,100,100);font-size:20px;padding:0px;margin:0px;margin-bottom:20px;}
+	#formulario h3{text-align:left;margin:0px;padding:0px;}
+	#formulario p{text-align:left;font-size:10px;}
+	.campo input{padding:5px;background:rgb(230,230,230);border:none;margin:4px;width:95%;clear:both;}
+	.campo{margin-bottom:20px;}
+	.campo label{font-size:2em;padding:0px;margin:0px;}
+	.campo p{font-size:0.6em;padding:0px;margin:0px;}
+	#formulario input[type="submit"]{
+		border:none;padding:10px;width:200px;margin:auto;
+	}
+	input{transition:all 1s;}
+	input:focus{outline:none;background:white;}
+	.contienecampo input{float: left;
+		    width: 97%;
+		    margin-right: 0px;
+		    height: 20px;
+		    border-radius: 5px 0px 0px 5px;
+		    box-shadow:0px 4px 8px rgba(0,0,0,0.1) inset;}
+	.contienecampo .tipocampo{float: right;
+		    width: 100%;
+		    background: rgb(200,200,200);
+		    height: 30px;
+		    line-height: 30px;
+		   
+		    border-radius: 0px 5px 5px 0px;}
+	.clearfix{clear:both;}
+	.contienecampo table{width:100%;}
+/* ESTILOS DE LOS CAMPOS */
+tr:nth-child(even) {background: rgb(240,240,240);}
+td{border:2px solid white;transition:all 1s;transition-delay: 1s;}
+td:hover{border:2px solid grey;}
+tr{border-bottom:2px solid grey;transition:all 1s;transition-delay: 1s;}
+tr:hover{border-bottom:2px solid grey;}
+th,td,.select2{max-width:300px !important;}
+	/*.email{filter:blur(4px);}*/
+	.urlsi{color:blue;text-decoration:underline;}
+	.campobuscador{width:100%;border:0px;background:rgb(230,230,230);padding:5px;}
+	th{position:relative;}
+	.iconobusca{position:absolute;right:6px;top:5px;}
+/* ESTILOS DE LAS VISTAS */
+.paginacion a{
+	font-size:40px;color:inherit;text-decoration:none;
+}
