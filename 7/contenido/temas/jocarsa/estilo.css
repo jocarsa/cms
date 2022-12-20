@@ -1,0 +1,55 @@
+*{
+    font-family: sans-serif;
+    padding:0px;
+    margin:0px;
+}
+body{
+    background:rgb(220,220,220);
+}
+header,main,footer{  
+    width:800px;
+    margin:auto;
+    padding:20px;
+    background:white;
+}
+header img{
+    float:left;
+    width:100px;
+    height:100px;
+}
+header nav{
+    clear:both;
+}
+header nav ul{
+    list-style-type:none;
+}
+header nav ul li{
+    float:left;
+    background:black;
+    color:white;
+    padding:5px;
+    margin:2px;
+    width:100px;
+    text-align:center;
+}
+header nav ul li a{
+    color:inherit;
+    text-decoration:none;
+}
+footer{
+    font-size:10px;
+    text-align:center;
+    clear:both;
+}
+article{
+    width:200px;
+    height:200px;
+    padding:10px;
+    margin:5px;
+    float:left;
+    border:1px solid grey;
+    border-radius:5px;
+}
+.borraflotacion{
+    clear:both;
+}
